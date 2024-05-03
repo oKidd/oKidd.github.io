@@ -25,8 +25,8 @@ container.addEventListener("mousemove", (e) => {
     const x = offsetX / clientWidth - 0.5
     const y = offsetY / clientHeight - 0.5
 
-    const rotX = -y * 10
-    const rotY = x * 10
+    const rotX = -y * 15
+    const rotY = x * 15
 
     imagen.style.transform = `perspective(500px) rotateX(${rotX}deg) rotateY(${rotY}deg)`
   }else{
